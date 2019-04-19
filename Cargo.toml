@@ -1,0 +1,11 @@
+[package]
+name = "code-runner-rust"
+version = "0.1.0"
+authors = ["Johnny Eric Amancio <johnnyeric@gmail.com>"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+phf = { version = "0.7.24", features = ["macros"] }
+tempfile = "3"

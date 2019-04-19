@@ -1,0 +1,1 @@
+cat test.json | cargo run
